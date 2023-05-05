@@ -7,30 +7,24 @@ body{
 }
 .age{
     position: relative;
-    left: 260px;
+    left: 120px; 
 }
+.se-navbar .nav-link{
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out border-color 0.3s ease;
+}
+.se-navbar .nav-link:hover{
+    padding-bottom: 3px;
+    border-color:blue;
+    color: blue;
+} 
 .lien{
     text-decoration: none;
 }
-.ont{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 160px;
-}
-.tact{
+.opppp{
+    width: 80px;
     position: relative;
-    left:2px ;
-    top: 2px;
-    color: #707070;
-}
-.but{
-    border-radius: 20px;
-    width: 100px;
-    height: 30px;
-    border-color: #707070;
-    position: relative;
-    left: 70px;
-    top: 5px;
+    right: 60px;
 }
 .oup{
     width: 40px;
@@ -59,6 +53,14 @@ body{
     font-size: 50px;
     color: #FFFFFF;
 }
+h5 span{
+position: relative;
+}
+.ooppp{
+    position: relative;
+    left: 55px;
+    width: 20px;
+}
 .wom{
     width:80%;
     display: flex;
@@ -75,7 +77,6 @@ body{
     position: relative;
     bottom: 60px;
 }
-
 .parent{
     height: 100vh;
     display: flex;
@@ -229,7 +230,8 @@ bottom: 60px;
     position: relative;
     bottom: 1735px;
 }
-.ligne1{
+.ligne1
+{
     display: flex;
     width: 100%;
     padding: 12px;
@@ -242,7 +244,7 @@ bottom: 60px;
     border: 3px solid rgba(243, 152, 55, 0.18);
     position: relative;
     bottom: 2318px;
-    }
+ }
 .cess1{
 width: 550px;
 height: 360px;
@@ -376,10 +378,34 @@ hil3{
     position: relative;
     bottom: 2860px;
     display: flex;
-    gap: 20px;
+    gap: 20px; 
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+}
+.good{
+    position: relative;
+    top: 60px;
+    width: 450px;
+    height: 80px;
+}
+.ouupp{
+    border-radius: 50px !important;
+    height: 60px;
+}
+.god{
+    position: relative;
+    top: 130px;
+    left: 150px;
+}
+.sub{
+    background-color: white;
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+}
+.mit{
+    color: #03326b;
 }
 .op{
     width: 350px;
@@ -439,23 +465,14 @@ hil3{
     flex-direction: column;
     flex-wrap: wrap;
 }
-.ist{
-    width: 70px;
-    height: 30px;
+.mage{
     position: relative;
-    left: 30px;
-}
-image{
+    left: 50px;
     display: flex;
-    margin-left: 70px;
-    flex-wrap: wrap;
-
+    gap: 20px;
 }
-.ist1{
-    width: 70px;
-    height: 30px;
-    position: relative;
-    left: 30px;
+.bi{
+    color: #F5F5F5;
 }
 .hu1{
     display: flex;
